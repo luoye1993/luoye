@@ -404,8 +404,8 @@ left_div.onclick = function () {
 }
 
 right_div.onclick = function () {
-    if(li_times == (e_li.length-2)){
-        li_times == e_li.length - 2;
+    if(li_times == (e_li.length-3)){
+        li_times == e_li.length - 3;
     }
     else{
         document.getElementById('timeUl').style.left = document.getElementById('timeUl').offsetLeft - e_li[0].offsetWidth +'px';
